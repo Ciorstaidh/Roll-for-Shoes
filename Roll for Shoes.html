@@ -1,0 +1,21 @@
+<div class="wrapper">
+    
+    <div class="full">
+        <h1>Roll for Shoes</h1>
+    </div>
+    
+    <div class="left">
+        <label for="attr_name">Name</label><input type="text" name="attr_name">
+        <label>Bio</label><textarea></textarea>
+    </div>
+    <div class="right">
+        <label for="attr_failures">Failures</label><input type="number" name="attr_failures" placeholder="0">
+        <label>Skills</label>
+        <fieldset class="repeating_skills">
+            <input type="text" name="attr_skill_name" placeholder="Skill Name">
+            <input type="number" name="attr_skill_level" min="1" max="6" placeholder="1">
+            <button type="roll" name="roll_skill" value="&{template:default}{{name=@{skill_name}}}{{skill=[[@{skill_level}d6]] }}"> Roll</button>
+        </fieldset>
+    </div>
+
+</div>

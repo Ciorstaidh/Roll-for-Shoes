@@ -1,0 +1,39 @@
+/****** Divs ******/
+/* Contains the whole page */
+.sheet-wrapper {
+    width: 750px;
+    background-color: white;
+    position: fixed;
+    font:15px Verdana, Geneva, sans-serif;;
+    color: black;
+}
+
+.sheet-full{
+    position: relative;
+    width: 100%;
+    padding: 10px;
+}
+
+.sheet-left{
+    float: left;
+    width: 47%;
+    padding: 10px;
+}
+
+.sheet-right{
+    float: right;
+    width: 47%;
+    padding: 10px;
+}
+
+/****** Headers ******/
+.sheet-wrapper h1 {
+    color: black;
+    font-size: 60px;
+    text-align: center;
+}
+
+/****** Labels ******/
+.sheet-wrapper label {
+    padding-top: 20px;
+}
